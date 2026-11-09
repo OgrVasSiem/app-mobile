@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="Theme.Appmobile" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Platform window theme only. Compose UI uses our AppTheme. -->
+    <style name="Theme.Clicker" parent="android:style/Theme.Light.NoTitleBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">#F8F9FC</item>
+    </style>
 </resources>

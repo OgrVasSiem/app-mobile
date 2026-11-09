@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">app-mobile</string>
+    <string name="app_name">Clicker</string>
+    <string name="starter_title">Основа приложения</string>
 </resources>
